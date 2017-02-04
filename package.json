@@ -1,22 +1,38 @@
 {
   "name": "gitd",
   "version": "0.0.0",
-  "description": "",
+  "description": "Use git to fetch all directories and files from any repository.",
+  "author": "Jose Luis Quintana",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "mkdir -p ./.tmp && tape test.js"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joseluisq/gitd.git"
   },
-  "author": "",
-  "license": "MIT",
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "os" : [
+    "!win32"
+  ],
   "bugs": {
     "url": "https://github.com/joseluisq/gitd/issues"
   },
   "homepage": "https://github.com/joseluisq/gitd#readme",
-  "devDependencies": {
-    "tape": "^4.6.3"
-  }
+  "keywords": [
+    "git",
+    "fetch",
+    "files",
+    "clone",
+    "tag",
+    "branch",
+    "promise",
+    "download"
+  ]
 }
