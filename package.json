@@ -1,6 +1,6 @@
 {
   "name": "gitd",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Use git to fetch all directories and files from any repository.",
   "author": "Jose Luis Quintana",
   "license": "MIT",
@@ -18,7 +18,7 @@
   "engines": {
     "node": ">= 4.0"
   },
-  "os" : [
+  "os": [
     "!win32"
   ],
   "bugs": {
