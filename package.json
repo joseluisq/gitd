@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/joseluisq/gitd/issues"
   },
-  "homepage": "https://github.com/joseluisq/gitd#readme"
+  "homepage": "https://github.com/joseluisq/gitd#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
 }
