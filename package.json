@@ -6,7 +6,9 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "mkdir -p ./.tmp && tape test.js"
+    "test": "npm run tmp && tape test.js",
+    "tmp": "npm run tmp:rm && mkdir -p ./.tmp",
+    "tmp:rm": "rm -rf ./.tmp"
   },
   "devDependencies": {
     "tape": "^4.6.3"
