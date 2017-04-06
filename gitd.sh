@@ -16,17 +16,19 @@ if [[ -z "$DIRECTORY" ]]; then
   exit "No directory supplied"
 fi
 
-if git clone \
---quiet \
---depth 1 \
---single-branch \
---branch ${BRANCH} \
-${REPOSITORY} \
-${DIRECTORY}
-then
-  rm -fr ${DIRECTORY}/.git
-  echo ${DIRECTORY}
-  exit
+if type git > /dev/null; then
+  if git clone \
+    --quiet \
+    --depth 1 \
+    --single-branch \
+    --branch ${BRANCH} \
+    ${REPOSITORY} \
+    ${DIRECTORY}
+  then
+    rm -fr ${DIRECTORY}/.git
+    echo ${DIRECTORY}
+    exit
+  fi
 fi
 
 exit 1

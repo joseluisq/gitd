@@ -1,4 +1,4 @@
-# gitd [![Build Status](https://travis-ci.org/joseluisq/gitd.svg?branch=master)](https://travis-ci.org/joseluisq/gitd) [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Greenkeeper badge](https://badges.greenkeeper.io/joseluisq/gitd.svg)](https://greenkeeper.io/)
+# Gitd [![Build Status](https://travis-ci.org/joseluisq/gitd.svg?branch=master)](https://travis-ci.org/joseluisq/gitd) [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Greenkeeper badge](https://badges.greenkeeper.io/joseluisq/gitd.svg)](https://greenkeeper.io/)
 
 > Use [Git](https://git-scm.com/) to fetch all directories and files from any repository. :octocat:
 
@@ -9,6 +9,14 @@
 - Unix-like operating systems only (this package uses a shell script).
 
 ## Install
+
+[Yarn](https://github.com/yarnpkg/)
+
+```sh
+yarn add gitd --dev
+```
+
+[NPM](https://www.npmjs.com/)
 
 ```sh
 npm install gitd --save-dev
