@@ -1,4 +1,4 @@
-# gitd [![Build Status](https://travis-ci.org/joseluisq/gitd.svg?branch=master)](https://travis-ci.org/joseluisq/gitd) [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+# gitd [![Build Status](https://travis-ci.org/joseluisq/gitd.svg?branch=master)](https://travis-ci.org/joseluisq/gitd) [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Greenkeeper badge](https://badges.greenkeeper.io/joseluisq/gitd.svg)](https://greenkeeper.io/)
 
 > Use [Git](https://git-scm.com/) to fetch all directories and files from any repository. :octocat:
 
