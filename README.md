@@ -1,12 +1,12 @@
 # Gitd [![Build Status](https://travis-ci.org/joseluisq/gitd.svg?branch=master)](https://travis-ci.org/joseluisq/gitd) [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Greenkeeper badge](https://badges.greenkeeper.io/joseluisq/gitd.svg)](https://greenkeeper.io/)
 
-> Use [Git](https://git-scm.com/) to fetch all directories and files from any repository. :octocat:
+> Use [Git](https://git-scm.com/) to fetch all source files from any repository. :octocat:
 
 ## Prerequisites
 
 - [NodeJS](https://nodejs.org) v4.0 or greater.
 - [Git](https://git-scm.com/).
-- Unix-like operating systems only (this package uses a shell script).
+- Unix-like operating systems only (this package uses a shell script). :penguin:
 
 ## Install
 
